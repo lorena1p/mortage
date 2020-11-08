@@ -1,0 +1,106 @@
+.wel-logo {
+    width: 160px;
+}
+
+.wel-bar {
+  padding-top: 40px;
+  min-height: auto;
+}
+
+.wel-header {
+  min-height: 450px;
+  padding-top: 160px;
+}
+
+/**/
+
+.sign-up-container {
+  z-index: 2000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(35, 28, 62, 0.9);
+  backdrop-filter: blur(8px);
+}
+
+.sign-up-close {
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  padding: 5px 10px;
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  font-family: Arial;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, .5);
+  background: #2182e5;
+  box-shadow: 0px 2px 5px #071c83;
+  border-radius: 20px;
+}
+
+.sign-up-container form {
+  position: relative;
+  width: 420px;
+  margin: 0 auto;
+  top: 15%;
+  padding: 40px 20px 40px 20px;
+  background: linear-gradient(161.18deg, #003d96 5.26%, #022a66 94.11%);
+  border-radius: 20px;
+  box-shadow: 0 2px 6px 3px rgba(33, 42, 148, 0.8);
+  border: 2px solid #1229a0;
+  color: #fff;
+  font-size: 14px;
+}
+
+.sign-up-container form h4,
+.form-container form h4 {
+  margin-bottom: 20px;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, .5);
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffc000;
+}
+
+.sign-up-container input[type='text'],
+.form-container input[type='text'] {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 20px;
+  padding: 25px;
+  background: #FFFFFF;
+  border: 2px solid #AD2103;
+  box-shadow: 0px 4px 20px rgba(173, 33, 3, 0.7);
+  border-radius: 10px;
+  color: #AD2103;
+  font-size: 16px;
+}
+
+.sign-up-container label,
+.form-container label {
+  display: block;
+}
+
+.sign-up-container .main-button,
+.form-container .main-button {
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.error-block {
+  display: block;
+  height: 35px;
+  padding: 5px 0 0 0;
+  color: #6f1602;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+	.sign-up-container form {
+		width: 420px;	
+	}
+}
